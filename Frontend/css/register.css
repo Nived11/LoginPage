@@ -103,3 +103,12 @@ button:hover{
     background-color: rgb(58, 58, 178);
 
 }
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    
+    cursor: pointer;
+}
