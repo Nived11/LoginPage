@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: rgb(53, 52, 52);
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lftnav{
+height: 100%;
+width: 25%;
+display: flex;
+align-items: center;
+/* background-color: rgb(93, 103, 103); */
+}
+.rgtnav{
+    height: 100%;
+    width: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+button{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background: none;
+    border: none;
+
+}
+.logout{
+    padding-left: -20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.person{
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+h3{
+    color: white;
+    margin-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+h4{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+    
+    letter-spacing:0.8px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
