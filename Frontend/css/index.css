@@ -11,11 +11,16 @@ body{
     justify-content: center;
 }
 .lftnav{
-height: 100%;
-width: 25%;
-display: flex;
-align-items: center;
-/* background-color: rgb(93, 103, 103); */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(93, 103, 103); */
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
 }
 .rgtnav{
     height: 100%;
@@ -24,6 +29,18 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: end;
+}
+h3{
+    color: white;
+    margin-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.person{
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
 }
 button{
     height: 40px;
@@ -41,18 +58,7 @@ button{
     border: 1px solid rgb(0, 0, 0);
 
 }
-.person{
-    margin-right: 10px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-}
-h3{
-    color: white;
-    margin-right: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-}
+
 h4{
     color: white;
     font-family:Arial, Helvetica, sans-serif;
@@ -60,9 +66,4 @@ h4{
     margin-left: 5px;
     
     letter-spacing:0.8px;
-}
-.logo{
-    height: 50px;
-    width: 50px;
-    margin-left: 20px;
 }
