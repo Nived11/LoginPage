@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if(res.status==201){
                 const {msg}=await res.json();
                 alert(msg);
+                window.location.href="./login.html"
             }else{
                 const {msg}=await res.json();
                 alert(msg);

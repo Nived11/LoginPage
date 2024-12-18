@@ -67,3 +67,6 @@ h4{
     
     letter-spacing:0.8px;
 }
+#usname{
+    text-transform: capitalize;
+}
