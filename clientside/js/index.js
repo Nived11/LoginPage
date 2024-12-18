@@ -15,7 +15,7 @@ async function getHome(){
             const data=await res.json();
             const  {username}=data
             console.log(username);
-            document.getElementById("usname").textContent=username;
+            document.getElementById("usname").textContent=`Hello ${username}..`;
         }
         else{
             const {msg}=await res.json();
