@@ -20,6 +20,7 @@ async function getHome(){
         else{
             const {msg}=await res.json();
                 alert(msg);
+                window.location.href="../pages/login.html"
         }
     } catch (error) {
         console.log(error);
